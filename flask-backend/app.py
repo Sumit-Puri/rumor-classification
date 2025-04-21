@@ -6,8 +6,8 @@ from flask_cors import CORS
 
 # Configure paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-TEMPLATE_DIR = os.path.join(BASE_DIR, '..', 'templates', 'tailwind')
-STATIC_DIR = os.path.join(BASE_DIR, '..', 'static')
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates', 'tailwind')
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
 app = Flask(__name__,
             template_folder=TEMPLATE_DIR,
